@@ -60,19 +60,31 @@ The project includes scripts to generate detailed HTML reports:
 
 These reports are generated automatically when you run `run_all_tests_and_generate_reports.py`.
 
+## Development Guidelines
+
+Please follow the development guidelines to ensure consistency and maintainability:
+- [Branch Naming Guidelines](https://github.com/dannysarco/lumin-site-auto-testing/blob/main/development-guidelines/BRANCH_NAMING_GUIDELINES)
+- [Merging Guidelines](https://github.com/dannysarco/lumin-site-auto-testing/blob/main/development-guidelines/MERGING_GUIDELINES)
+
 ## Project Structure
 ```plaintext
 lumin-site-auto-testing/
-├── extract-elements.py
-├── generate_diff_report.py
-├── generate_test_report.py
-├── homepage.spec.js
-├── requirements.txt
-├── run_all_tests_and_generate_reports.py
-├── compare_html.py
+├── .github/
+│   └── PR_TEMPLATE.md
+├── development-guidelines/
+│   ├── BRANCH_NAMING_GUIDELINES.md
+│   └── MERGING_GUIDELINES.md
+├── scripts/
+│   ├── compare_html.py
+│   ├── generate_diff_report.py
+│   ├── generate_test_report.py
+│   ├── run_all_tests_and_generate_reports.py
+│   └── extract_elements.py
+├── tests/
+│   └── homepage.spec.js
+├── .gitignore
 ├── README.md
-└── tests/
-    └── example.spec.js
+└── requirements.txt
 ```
 - **extract-elements.py**: Script to extract HTML elements for comparison.
 - **generate_diff_report.py**: Generates a report highlighting differences in HTML structure.
