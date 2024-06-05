@@ -1,0 +1,455 @@
+{
+  "config": {
+    "rootDir": "/Users/danielsarco/Desktop/Development/GitHubRepos/lumin-site-auto-testing",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/danielsarco/Desktop/Development/GitHubRepos/lumin-site-auto-testing/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "/Users/danielsarco/Desktop/Development/GitHubRepos/lumin-site-auto-testing",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.44.1",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "homepage.spec.js",
+      "file": "homepage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "LuminSmart Homepage UI Tests",
+          "file": "homepage.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Basic UI Elements",
+              "file": "homepage.spec.js",
+              "line": 9,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "Check page title",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1183,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:02.608Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-88a8c1522ae8d62a8cae",
+                  "file": "homepage.spec.js",
+                  "line": 10,
+                  "column": 5
+                },
+                {
+                  "title": "Check header is visible",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1064,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:03.913Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-e5a2bff8ad4aaf313363",
+                  "file": "homepage.spec.js",
+                  "line": 14,
+                  "column": 5
+                },
+                {
+                  "title": "Check main navigation links",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 971,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:04.981Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-1727d7f089faa84d077c",
+                  "file": "homepage.spec.js",
+                  "line": 19,
+                  "column": 5
+                },
+                {
+                  "title": "Check \"Get Lumin\" button",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1059,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:05.954Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-b558e5185345c7493ecb",
+                  "file": "homepage.spec.js",
+                  "line": 26,
+                  "column": 5
+                },
+                {
+                  "title": "Check sections are present",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1104,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Found 1 elements for Cookies Bar\n"
+                            },
+                            {
+                              "text": "Found 40 elements for Slider Card Section\n"
+                            },
+                            {
+                              "text": "Found 1 elements for Footer Section\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:07.015Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-a9b6328013cc07efb7e0",
+                  "file": "homepage.spec.js",
+                  "line": 32,
+                  "column": 5
+                },
+                {
+                  "title": "Check first section title",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 998,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:08.121Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-0e3d7c1a1fddb44e41aa",
+                  "file": "homepage.spec.js",
+                  "line": 41,
+                  "column": 5
+                },
+                {
+                  "title": "Check video links are present",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1121,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:09.121Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-513fc84cf3713f16eae3",
+                  "file": "homepage.spec.js",
+                  "line": 46,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "Navigation Menu Tests",
+              "file": "homepage.spec.js",
+              "line": 54,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "Check social media links",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1292,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:10.244Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-d431e4d08f98b435dd4d",
+                  "file": "homepage.spec.js",
+                  "line": 55,
+                  "column": 5
+                },
+                {
+                  "title": "Check App Store links",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1314,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:11.538Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-9a0143a0499505b473c6",
+                  "file": "homepage.spec.js",
+                  "line": 63,
+                  "column": 5
+                },
+                {
+                  "title": "Check footer links",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1028,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:12.855Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-c12551a7f76dbac74bc7",
+                  "file": "homepage.spec.js",
+                  "line": 71,
+                  "column": 5
+                },
+                {
+                  "title": "Check navigation drop-down menu items",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1289,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-06-05T16:26:13.885Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "cf4ffee829137744e3cd-9d5a9139a6053e1d8ab4",
+                  "file": "homepage.spec.js",
+                  "line": 78,
+                  "column": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-06-05T16:26:02.397Z",
+    "duration": 12798.970000000001,
+    "expected": 11,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
